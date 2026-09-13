@@ -1,0 +1,20 @@
+*.iml
+.gradle/
+/local.properties
+local.properties
+/.idea/
+.DS_Store
+Thumbs.db
+**/build/
+/captures
+.externalNativeBuild
+.cxx
+.kotlin/
+*.apk
+*.aab
+*.log
+
+# Tooling artifacts not part of the public project
+.claude/
+graphify-out/
+NiimBridge_ClaudeCode_Prompt_v3.md

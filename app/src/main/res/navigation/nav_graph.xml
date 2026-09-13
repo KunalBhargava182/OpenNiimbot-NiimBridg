@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/connectFragment">
+
+    <fragment
+        android:id="@+id/connectFragment"
+        android:name="com.muse.niimbridge.ui.connect.ConnectFragment"
+        android:label="@string/nav_connect"
+        tools:layout="@layout/fragment_connect" />
+
+    <fragment
+        android:id="@+id/deviceInfoFragment"
+        android:name="com.muse.niimbridge.ui.deviceinfo.DeviceInfoFragment"
+        android:label="@string/nav_device_info"
+        tools:layout="@layout/fragment_device_info" />
+
+    <fragment
+        android:id="@+id/labelDesignerFragment"
+        android:name="com.muse.niimbridge.ui.designer.LabelDesignerFragment"
+        android:label="@string/nav_designer"
+        tools:layout="@layout/fragment_label_designer" />
+
+    <fragment
+        android:id="@+id/printFragment"
+        android:name="com.muse.niimbridge.ui.print.PrintFragment"
+        android:label="@string/nav_print"
+        tools:layout="@layout/fragment_print" />
+
+    <fragment
+        android:id="@+id/packetConsoleFragment"
+        android:name="com.muse.niimbridge.ui.console.PacketConsoleFragment"
+        android:label="@string/nav_console"
+        tools:layout="@layout/fragment_packet_console" />
+
+</navigation>

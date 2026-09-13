@@ -1,0 +1,19 @@
+<resources>
+    <string name="niimbot_title">Print Sticker</string>
+    <string name="niimbot_permission_message">Bluetooth permission is needed to connect to the printer.</string>
+    <string name="niimbot_grant">Grant</string>
+    <string name="niimbot_bluetooth_off">Bluetooth is turned off.</string>
+    <string name="niimbot_enable">Enable</string>
+    <string name="niimbot_bluetooth_unavailable">Bluetooth is not available on this device.</string>
+    <string name="niimbot_connecting">Connecting to printer…</string>
+    <string name="niimbot_select_printer">Select printer</string>
+    <string name="niimbot_no_paired_devices">No paired printer found. Pair it in Android Bluetooth settings first.</string>
+    <string name="niimbot_open_settings">Open Bluetooth settings</string>
+    <string name="niimbot_retry">Retry</string>
+    <string name="niimbot_copies_label">Copies</string>
+    <string name="niimbot_print">Print</string>
+    <string name="niimbot_printing">Printing…</string>
+    <string name="niimbot_success">Sticker printed successfully.</string>
+    <string name="niimbot_failure_prefix">Print failed: %1$s</string>
+    <string name="niimbot_done">Done</string>
+</resources>

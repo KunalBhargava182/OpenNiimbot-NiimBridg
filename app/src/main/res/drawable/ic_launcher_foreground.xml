@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- A specimen-label tag, tilted, reads clearly at launcher size and
+         matches what the app actually produces. The small hole is a genuine
+         cut (evenOdd fill), so it works for both the flat and monochrome
+         (Android 13+ themed icon) renders. -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:rotation="-22">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M28,54 L44,37 L80,37 L80,71 L44,71 Z M43.5,54 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0 Z" />
+    </group>
+</vector>

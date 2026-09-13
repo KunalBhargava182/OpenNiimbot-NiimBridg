@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Same label-tag mark as the launcher icon, scaled down for the toolbar. -->
+    <group
+        android:pivotX="12"
+        android:pivotY="12"
+        android:rotation="-22">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M3,12 L9,6 L21,6 L21,18 L9,18 Z M8.4,12 a1.6,1.6 0 1,0 3.2,0 a1.6,1.6 0 1,0 -3.2,0 Z" />
+    </group>
+</vector>

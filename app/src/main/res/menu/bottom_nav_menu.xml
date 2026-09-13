@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/connectFragment"
+        android:icon="@drawable/ic_nav_connect"
+        android:title="@string/nav_connect" />
+    <item
+        android:id="@+id/deviceInfoFragment"
+        android:icon="@drawable/ic_nav_device_info"
+        android:title="@string/nav_device_info" />
+    <item
+        android:id="@+id/labelDesignerFragment"
+        android:icon="@drawable/ic_nav_designer"
+        android:title="@string/nav_designer" />
+    <item
+        android:id="@+id/printFragment"
+        android:icon="@drawable/ic_nav_print"
+        android:title="@string/nav_print" />
+    <item
+        android:id="@+id/packetConsoleFragment"
+        android:icon="@drawable/ic_nav_console"
+        android:title="@string/nav_console" />
+</menu>

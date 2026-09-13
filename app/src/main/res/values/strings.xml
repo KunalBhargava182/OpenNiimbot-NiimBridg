@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">NiimBridge</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_connect">Connect</string>
+    <string name="nav_device_info">Info</string>
+    <string name="nav_designer">Design</string>
+    <string name="nav_print">Print</string>
+    <string name="nav_console">Console</string>
+
+    <!-- Connect screen -->
+    <string name="section_transport">Transport</string>
+    <string name="section_available_printers">Available printers</string>
+    <string name="transport_spp">SPP (Classic)</string>
+    <string name="transport_ble">BLE (unverified)</string>
+    <string name="scan_for_devices">Scan for devices</string>
+    <string name="open_bluetooth_settings">Bluetooth settings</string>
+    <string name="bonded_devices_header">Paired</string>
+    <string name="discovered_devices_header">Discovered</string>
+    <string name="device_unbonded_warning">Not paired. SPP requires pairing in Android Bluetooth settings first.</string>
+    <string name="permission_rationale_title">Bluetooth permission needed</string>
+    <string name="permission_rationale_message">NiimBridge needs Bluetooth permission to find and connect to your NIIMBOT printer.</string>
+    <string name="grant">Grant</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting…</string>
+
+    <!-- Device Info screen -->
+    <string name="device_info_title">Device Info</string>
+    <string name="section_device">Printer</string>
+    <string name="section_roll">Roll status</string>
+    <string name="model_id_label">Model ID</string>
+    <string name="firmware_label">Firmware</string>
+    <string name="hardware_label">Hardware</string>
+    <string name="serial_label">Serial</string>
+    <string name="battery_label">Battery</string>
+    <string name="model_mismatch_warning">Unexpected model ID -- expected 2320 (D110_M)</string>
+    <string name="rfid_remaining_label">≈ %1$d labels remaining</string>
+    <string name="refresh">Refresh</string>
+    <string name="not_connected">Not connected. Connect to a printer first.</string>
+
+    <!-- Label Designer screen -->
+    <string name="section_content">Sticker content</string>
+    <string name="section_appearance">Appearance</string>
+    <string name="section_preview">Preview</string>
+    <string name="study_id_hint">Study ID</string>
+    <string name="emir_id_hint">EMIR ID</string>
+    <string name="sticker_type_label">Sticker type</string>
+    <string name="rotation_label">Rotation</string>
+    <string name="preview_label">Preview (96×320, pinch to zoom)</string>
+    <string name="font_label">Font</string>
+    <string name="alignment_label">Alignment</string>
+    <string name="align_left">L</string>
+    <string name="align_center">C</string>
+    <string name="align_right">R</string>
+    <string name="text_style_label">Style</string>
+    <string name="style_bold">B</string>
+    <string name="style_italic">I</string>
+    <string name="style_underline">U</string>
+
+    <!-- Print screen -->
+    <string name="section_settings">Print settings</string>
+    <string name="section_actions">Print</string>
+    <string name="density_label">Density</string>
+    <string name="label_type_label">Label type</string>
+    <string name="copies_label">Copies</string>
+    <string name="print_current">Print current</string>
+    <string name="print_all_six">Print all 6 types</string>
+
+    <!-- Packet Console screen -->
+    <string name="section_send_raw">Send raw frame</string>
+    <string name="send_hex_hint">Raw hex bytes, e.g. 55 55 40 01 08</string>
+    <string name="send">Send</string>
+    <string name="export">Export</string>
+    <string name="share">Share</string>
+    <string name="clear">Clear</string>
+</resources>

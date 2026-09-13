@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme, dark palette. -->
+    <style name="Base.Theme.NiimBridge" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#A9C6F5</item>
+        <item name="colorOnPrimary">#0A2A54</item>
+        <item name="colorPrimaryContainer">@color/brand_primary_dark</item>
+        <item name="colorOnPrimaryContainer">@color/brand_primary_container</item>
+        <item name="colorSecondary">#8FD6C4</item>
+        <item name="colorOnSecondary">@color/brand_on_secondary_container</item>
+        <item name="colorSecondaryContainer">#164F44</item>
+        <item name="colorOnSecondaryContainer">@color/brand_secondary_container</item>
+        <item name="colorError">#FFB4AB</item>
+        <item name="colorOnError">#690005</item>
+        <item name="android:colorBackground">@color/background_dark</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="colorOnSurface">@color/on_surface_dark</item>
+        <item name="colorSurfaceVariant">@color/surface_variant_dark</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant_dark</item>
+        <item name="colorOutline">@color/outline_dark</item>
+
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="fontFamily">@font/manrope_regular</item>
+
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.NiimBridge.HeadlineSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.NiimBridge.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.NiimBridge.TitleMedium</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.NiimBridge.TitleSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.NiimBridge.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.NiimBridge.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.NiimBridge.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.NiimBridge.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.NiimBridge.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.NiimBridge.LabelSmall</item>
+
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.NiimBridge.Card</item>
+    </style>
+</resources>

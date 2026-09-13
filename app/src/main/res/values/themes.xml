@@ -1,0 +1,119 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Type scale: Manrope everywhere, weight carries the hierarchy instead of
+         falling back to Material's default Roboto styles. -->
+    <style name="TextAppearance.NiimBridge.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/manrope_extrabold</item>
+        <item name="android:fontFamily">@font/manrope_extrabold</item>
+    </style>
+    <style name="TextAppearance.NiimBridge.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/manrope_bold</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+    </style>
+    <style name="TextAppearance.NiimBridge.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/manrope_semibold</item>
+        <item name="android:fontFamily">@font/manrope_semibold</item>
+    </style>
+    <style name="TextAppearance.NiimBridge.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/manrope_semibold</item>
+        <item name="android:fontFamily">@font/manrope_semibold</item>
+    </style>
+    <style name="TextAppearance.NiimBridge.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/manrope_regular</item>
+        <item name="android:fontFamily">@font/manrope_regular</item>
+    </style>
+    <style name="TextAppearance.NiimBridge.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/manrope_regular</item>
+        <item name="android:fontFamily">@font/manrope_regular</item>
+    </style>
+    <style name="TextAppearance.NiimBridge.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/manrope_regular</item>
+        <item name="android:fontFamily">@font/manrope_regular</item>
+    </style>
+    <style name="TextAppearance.NiimBridge.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/manrope_semibold</item>
+        <item name="android:fontFamily">@font/manrope_semibold</item>
+    </style>
+    <style name="TextAppearance.NiimBridge.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/manrope_semibold</item>
+        <item name="android:fontFamily">@font/manrope_semibold</item>
+    </style>
+    <style name="TextAppearance.NiimBridge.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/manrope_semibold</item>
+        <item name="android:fontFamily">@font/manrope_semibold</item>
+    </style>
+
+    <style name="ShapeAppearance.NiimBridge.Card" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerSize">14dp</item>
+    </style>
+
+    <!-- Small caps-style section header, used above every grouped control block. -->
+    <style name="SectionLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/manrope_bold</item>
+        <item name="android:textAppearance">?attr/textAppearanceLabelLarge</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="FieldLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/manrope_semibold</item>
+        <item name="android:textAppearance">?attr/textAppearanceLabelMedium</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <style name="FieldValue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/manrope_semibold</item>
+        <item name="android:textAppearance">?attr/textAppearanceTitleMedium</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.NiimBridge" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorOnPrimary">@color/brand_on_primary</item>
+        <item name="colorPrimaryContainer">@color/brand_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/brand_on_primary_container</item>
+        <item name="colorSecondary">@color/brand_secondary</item>
+        <item name="colorOnSecondary">@color/brand_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/brand_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/brand_on_secondary_container</item>
+        <item name="colorError">@color/brand_error</item>
+        <item name="colorOnError">@color/brand_on_error</item>
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorSurface">@color/surface_light</item>
+        <item name="colorOnSurface">@color/on_surface_light</item>
+        <item name="colorSurfaceVariant">@color/surface_variant_light</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant_light</item>
+        <item name="colorOutline">@color/outline_light</item>
+
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="fontFamily">@font/manrope_regular</item>
+
+        <item name="textAppearanceHeadlineSmall">@style/TextAppearance.NiimBridge.HeadlineSmall</item>
+        <item name="textAppearanceTitleLarge">@style/TextAppearance.NiimBridge.TitleLarge</item>
+        <item name="textAppearanceTitleMedium">@style/TextAppearance.NiimBridge.TitleMedium</item>
+        <item name="textAppearanceTitleSmall">@style/TextAppearance.NiimBridge.TitleSmall</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.NiimBridge.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.NiimBridge.BodyMedium</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.NiimBridge.BodySmall</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.NiimBridge.LabelLarge</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.NiimBridge.LabelMedium</item>
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.NiimBridge.LabelSmall</item>
+
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.NiimBridge.Card</item>
+    </style>
+
+    <style name="Theme.NiimBridge" parent="Base.Theme.NiimBridge" />
+
+    <style name="Widget.NiimBridge.Toolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.NiimBridge.TitleLarge</item>
+        <item name="titleTextColor">@color/brand_on_primary</item>
+    </style>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Brand: a deliberate, clinical-trust blue, not a Material default. -->
+    <color name="brand_primary">#1F4E8C</color>
+    <color name="brand_primary_dark">#123765</color>
+    <color name="brand_on_primary">#FFFFFF</color>
+    <color name="brand_primary_container">#D7E3FB</color>
+    <color name="brand_on_primary_container">#0A2A54</color>
+
+    <color name="brand_secondary">#2C7A6B</color>
+    <color name="brand_on_secondary">#FFFFFF</color>
+    <color name="brand_secondary_container">#CFEFE7</color>
+    <color name="brand_on_secondary_container">#062B23</color>
+
+    <color name="brand_error">#BA1A1A</color>
+    <color name="brand_on_error">#FFFFFF</color>
+    <color name="brand_success">#1E7A46</color>
+
+    <color name="surface_light">#FBFBFE</color>
+    <color name="on_surface_light">#1B1C1E</color>
+    <color name="surface_variant_light">#E3E7EF</color>
+    <color name="on_surface_variant_light">#454952</color>
+    <color name="outline_light">#767A83</color>
+    <color name="background_light">#F5F6FA</color>
+
+    <color name="surface_dark">#15171C</color>
+    <color name="on_surface_dark">#E3E2E6</color>
+    <color name="surface_variant_dark">#42474E</color>
+    <color name="on_surface_variant_dark">#C3C6CF</color>
+    <color name="outline_dark">#8C9099</color>
+    <color name="background_dark">#101215</color>
+
+    <!-- Packet console: deliberately its own dark "terminal" surface in both themes. -->
+    <color name="console_background">#0E1116</color>
+    <color name="console_on_background">#DDE3EA</color>
+    <color name="console_tx">#6FA8FF</color>
+    <color name="console_rx">#5FD394</color>
+    <color name="console_info">#8B93A1</color>
+</resources>
